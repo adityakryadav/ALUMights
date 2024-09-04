@@ -50,7 +50,7 @@ align-items: center;
     margin:10px 0px;
 }
 .login-form .form-input label,
-.login-form .captchs label{
+.login-form .captcha label{
     display:block;
     font-size:15px;
     color:#111;
