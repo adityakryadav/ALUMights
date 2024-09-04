@@ -21,19 +21,22 @@ a {
     text-decoration: none;
 }
 
-.brand {
-    font-size: 2rem;
-    font-weight: 700;
+.brand img {
+    width: 50px;
+    padding-top: 10px;
 }
 
 .login {
+    display: block;
     border-radius: 8px;
-    height: 150px;
-    padding-top: 75px;
+    height: 200px;
+    padding-top: 55px;
     width: 350px;
-    padding-left: 50px;
-    background-color: antiquewhite;
+    padding-left: 70px;
+    background-color: #0a66c2;
+    color: #ffffff;
 }
+
 
 .login p {
     padding-top: 10px;
