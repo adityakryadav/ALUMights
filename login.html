@@ -1,19 +1,63 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register/Login to aluminiAssociation</title>
+    <title>Alumni Registration Form</title>
     <link rel="stylesheet" href="styleLoginRegister.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="page">
-        <div class="login">
-            <p class="brand"> Welcome to <img src="logoHome.jpeg" alt=""></p>
-            <p><input type="text" placeholder="User Id Addrss"></p>
-            <p><button aria-placeholder=""><a href="index.html">Next</a></button></p>
-            <p>Register Yourself : <a href="register.html">SignUp</a></p>
-        </div>        
+    <header>
+        <div class="navbar">
+           
+        </div>
+        <div class="panel">
+            <div class="panel-all box">
+
+            </div>
+        </div>
+        
+    </header>
+    <div class="mainbody">
+        <div class="login-form">
+            <div class="form-title">
+                Alumni Member Login 
+            </div>
+        
+            <div class="form-input">
+                <label type="username">Username</label>
+                <input type="text" name="Username" placeholder="Username">
+            </div>
+            
+            <div class="form-input">
+                <label type="password">password</label>
+                <input type="password" password="password" placeholder="password">
+            </div>
+            <div class="captcha">
+                <label for="captcha-input">Enter captcha</label>
+                <div id="preview"></div>
+                <div class="captcha-form">
+                    <input type="text" id="captcha-form" placeholder="Enter captcha text">
+                    <button class="captcha-refresh">
+                        <i class="fa-solid fa-retweet"></i>
+                    </button>
+                </div> 
+            </div>
+            <div class="form-input">
+                <a href="index.html"><button id="login-btn">LOGIN</button></a>
+                <button id="forgotpassword-btn">FORGOT PASSWORD</button>
+                <a href="register.html"><button id="sign-up-btn" >NEW REGISTRATION</button></a>
+            </div>
+
+        </div>
+        <div class="copyright">
+            
+        </div>
+
+
     </div>
+    <script src="captcha.js"></script>
 </body>
 </html>
