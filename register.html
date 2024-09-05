@@ -1,22 +1,90 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register to aluminiAssociation</title>
+    <title>Alumni Registration Form</title>
     <link rel="stylesheet" href="styleLoginRegister.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="page">
-        <div class="login">
-            <p>Welcome to</p>
-            <p class="brand">aluminiAssociation</p>
-            <input type="text" placeholder="User Id Address">
-            <input type="text" placeholder="Password">
-            <button aria-placeholder="" ><a href="index.html">Next</a></button>
+    <header>
+        <div class="navbar">
+           
+        </div>
+        <div class="panel">
+            <div class="panel-all box">
+
+            </div>
+        </div>
+        
+    </header>
+    <div class="mainbody">
+        <div class="login-form">
+            <div class="form-title">
+                Alumni Member Register 
+            </div>
+        
+            <div class="form-input">
+                <label type="username">Username</label>
+                <input type="text" name="Username" placeholder="Username">
+            </div>
             
-            <p>Already Hvae an Account? <a href="login.html">SignIn</a></p>
-        </div>        
-    </div>    
+            <div class="form-input">
+                <label type="text">Full name</label>
+                <input type="text" name="Full Name" placeholder="Full Name">
+            </div>
+            
+            <div class="form-input">
+                <label type="username">College Name</label>
+                <input type="text" name="Username" placeholder="College Name">
+            </div>
+
+            <div class="form-input">
+                <label type="username">Course</label>
+                <select name="Course" id="">
+                    <option value="">B. Tech</option>
+                    <option value="">M. Tech</option>
+                    <option value="">B. A.</option>
+                    <option value="">B. Sc.</option>
+                    <option value="">M. Sc.</option>
+                </select>
+            </div>
+            
+            <div class="form-input">
+                <label type="password">password</label>
+                <input type="password" password="password" placeholder="password">
+            </div>
+
+            <div class="form-input">
+                <label type="password">password</label>
+                <input type="password" password="password" placeholder="password">
+            </div>
+
+            <div class="captcha">
+                <label for="captcha-input">Enter captcha</label>
+                <div id="preview"></div>
+                <div class="captcha-form">
+                    <input type="text" id="captcha-form" placeholder="Enter captcha text">
+                    <button class="captcha-refresh">
+                        <i class="fa-solid fa-retweet"></i>
+                    </button>
+                </div> 
+            </div>
+            <div class="form-input">
+                <a href="index.html"><button id="login-btn">LOGIN</button></a>
+                <button id="forgotpassword-btn">FORGOT PASSWORD</button>
+                <a href="register.html"><button id="sign-up-btn" >NEW REGISTRATION</button></a>
+            </div>
+
+        </div>
+        <div class="copyright">
+            
+        </div>
+
+
+    </div>
+    <script src="captcha.js"></script>
 </body>
 </html>
