@@ -1,2 +1,2 @@
-# aluminiAssociation
-this the project for smart india hackathon 2024 of team BUG SLAYERS
+# ALUMights
+this the project for smart india hackathon 2024 of team ALUMights
